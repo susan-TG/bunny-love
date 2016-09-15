@@ -1,83 +1,66 @@
-body {
-	background-color: #DEFDFE;
-}
-nav {
-	background-color: #0593C2;
-	height: 80px;
-}
-.bar ul a {
-	text-decoration: none;
-	color: white;
-}
-.bar ul li {
-	display: inline;
-	right: 0;
-}
-.logo ul li {
-	display: inline;
-}
-.logo, .bar {
-	display: inline-block;
-}
-.bar {
-	right: 0;
-}
-.logo li {
-	font-family: 'Baloo Paaji', cursive;
-	font-size: 30px;
-
-}
-#blanc {
-	color: white;
-}
-#pink {
-	color: #FF5D87;
-}
-.photo-bunny {
-	background-image: url(../img/img-1.jpg);
-	background-repeat: no-repeat;
-
-	height: 400px;
-	position: relative;
-}
-.box-opacity {
-	width: 400px;
-	height: 280px;
-	background-color: white;
-	opacity: 0.5;
-  	filter:  alpha (opacity=50);
-  	position: absolute;
-  	top: 50px;
-  	left: 268px;
-  	text-align: center;
-}
-.box-opacity h1 {
-	font-family: 'Baloo Paaji', cursive;
-	color: #FF5D87;
-	font-size: 50px;
-}
-.box-text img {
-	width: 200px;
-	height: auto;
-}
-.box-text {
-	width: 200px;
-	height: auto;
-	margin-top: 20px;
-	background-color: #0593C2;
-}
-.head-bunny {
-	background-image:url(../img/bunny-head.png);
-	background-repeat: repeat;
-	width: 20px;
-	height: 20px;
-}
-footer .box-footer {
-	background-color: #0593C2;
-	height: 60px;
-	width: 100%;
-}
-.container {
+.container{
+	margin:0 auto;
 	width: 80%;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+*{
+	font-family: "Baloo paaji"
+}
+
+header{
+	background-color: #037F99;
+}
+
+.titulo{
+	font-family: "Baloo paaji";
+	color: #FF7673;
+}
+
+span{
+	color:white;
+}
+
+li {
+	float: left;
+	margin-left: 10px;
+	color:white;
+	font-size: 15px;
+}
+
+.fondoconejo{
+	background: url(../img/img-1.jpg);
+	height: 450px;
+	width: 100%;
+	background-repeat: no-repeat;
 	
 }
+
+.degrade{
+	background-color: rgba(3, 127, 153, 0.87);
+	padding-top: 40px
+	padding-bottom:40px;
+	margin:0 auto;
+}
+
+.titulo2{
+	color: #FF7673;
+	font-size:60px;
+}
+
+.degrade{
+	color:white;
+	text-align: center;
+}
+
+ img{
+ 	width: 100%;
+ }
+
+ .box-text {
+ 	margin-top:10%;
+ }
+
