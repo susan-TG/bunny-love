@@ -5,16 +5,20 @@
 
 *{
 	box-sizing: border-box;
+	font-family: "Baloo paaji";
 }
-
-*{
-	font-family: "Baloo paaji"
+body {
+	background-color: #D1FCF9;
+	margin: 0px !important;
+	padding: 0px !important;
 }
 
 header{
 	background-color: #037F99;
 }
-
+nav {
+	margin-top: 30px;
+}
 .titulo{
 	font-family: "Baloo paaji";
 	color: #FF7673;
@@ -33,34 +37,73 @@ li {
 
 .fondoconejo{
 	background: url(../img/img-1.jpg);
-	height: 450px;
-	width: 100%;
+	background-size: 100%;
 	background-repeat: no-repeat;
+	padding: 50px 80px;
+}
+
+.fondoblanco {
 	
 }
-
-.degrade{
+.opacidad .degrade {
 	background-color: rgba(3, 127, 153, 0.87);
-	padding-top: 40px
-	padding-bottom:40px;
-	margin:0 auto;
 }
 
-.titulo2{
+.titulo2 {
 	color: #FF7673;
-	font-size:60px;
-}
-
-.degrade{
-	color:white;
+	margin:0;
+	font-size:80px;
 	text-align: center;
 }
 
+.degrade h3 {
+	text-align: center;
+	color: white;
+}
+
+.degrade {
+	padding: 60px 30px;
+}
  img{
  	width: 100%;
  }
 
  .box-text {
- 	margin-top:10%;
+ 	background-color: #037F99;
+ 	border: 10px solid white;
+ 	text-align: center;
+
  }
 
+.icon{
+	visibility: hidden;
+	
+}
+
+@media (max-width : 479px){
+	.titulo{
+		font-size: 30px;
+		display: inline;
+	}
+	.icon{
+		visibility: visible;
+		float: right;
+		margin-top: 10px;
+		color: white;
+		font-size: 30px;
+		
+	}
+	nav {
+		visibility: hidden;
+		display: none;
+	}
+	.titulo2 {
+		font-size: 40px;
+	}
+	.fondoconejo{
+		padding: 25px 40px;
+	}
+	.degrade {
+		padding: 25px 15px;
+	}
+}
