@@ -2,7 +2,6 @@
 	margin:0 auto;
 	width: 80%;
 }
-
 *{
 	box-sizing: border-box;
 	font-family: "Baloo paaji";
@@ -12,7 +11,6 @@ body {
 	margin: 0px !important;
 	padding: 0px !important;
 }
-
 header{
 	background-color: #037F99;
 }
@@ -23,64 +21,111 @@ nav {
 	font-family: "Baloo paaji";
 	color: #FF7673;
 }
-
 span{
 	color:white;
 }
-
 li {
 	float: left;
 	margin-left: 10px;
 	color:white;
 	font-size: 15px;
 }
-
 .fondoconejo{
 	background: url(../img/img-1.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	padding: 50px 80px;
 }
-
-.fondoblanco {
-	
-}
 .opacidad .degrade {
 	background-color: rgba(3, 127, 153, 0.87);
 }
-
 .titulo2 {
 	color: #FF7673;
 	margin:0;
 	font-size:80px;
 	text-align: center;
 }
-
 .degrade h3 {
 	text-align: center;
 	color: white;
 }
-
 .degrade {
 	padding: 60px 30px;
 }
  img{
  	width: 100%;
  }
-
  .box-text {
  	background-color: #037F99;
  	border: 10px solid white;
  	text-align: center;
-
  }
-
+ .box-text h4 {
+ 	color:#FF7673;
+ }
+ .box-text p {
+ 	color: white;
+ }
+ .box-blue {
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+	background-color: #037F99;
+	color: black;
+ }
+ .box-blue h4 {
+ 	color: #FF7673;
+ 	text-align: center;
+ }
+.search {
+	background-color: #F1FCFF;
+	border-radius: 6px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+}
+input {
+	width: 95%;
+	border: none;
+	border-radius: 6px;
+}
+footer {
+	background-color: #037F99;
+}
+.head-bunny {
+	background-image: url(../img/bunny-head.png);
+	background-repeat: repeat;
+	height: 20px auto;
+}
 .icon{
 	visibility: hidden;
-	
+}
+.box-left {
+	display: block;
+	margin: 0;
+}
+.box-right{
+	display: block;
+	margin: 0;
 }
 
-@media (max-width : 479px){
+.box-left .box-right img{
+	width: 500px;
+}
+.box-left, .box-right {
+	background-color: #D1FCF9;
+	width: 500px;
+	margin-left: 20px;
+	text-align: justify;
+	
+}
+.box-right p, .box-left p {
+	text-align: center;
+	padding: 10px;
+}
+iframe {
+	width: 500px;
+	height: 400px;
+}
+@media (max-width : 479px) {
 	.titulo{
 		font-size: 30px;
 		display: inline;
@@ -91,7 +136,6 @@ li {
 		margin-top: 10px;
 		color: white;
 		font-size: 30px;
-		
 	}
 	nav {
 		visibility: hidden;
