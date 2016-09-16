@@ -94,7 +94,7 @@ footer {
 .head-bunny {
 	background-image: url(../img/bunny-head.png);
 	background-repeat: repeat;
-	height: 20px auto;
+	height: 20px auto ;
 }
 .icon{
 	visibility: hidden;
